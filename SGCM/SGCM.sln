@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{DD17D1FA-BDBF-45F3-BD1C-EC87AF9DA69E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vista", "Vista", "{941F31C6-06F8-4CA7-B9F5-77A14BCB4ACF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{A5DD7287-525D-4A11-BAA6-EEBA70A58B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{E8E5B1AA-C80B-40F6-9DCD-CB342C28A94D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellGlobal", "ShellGlobal\ShellGlobal.csproj", "{57F52C45-DBD1-45F7-90EE-D789E75F7371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8E5B1AA-C80B-40F6-9DCD-CB342C28A94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E5B1AA-C80B-40F6-9DCD-CB342C28A94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E5B1AA-C80B-40F6-9DCD-CB342C28A94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E5B1AA-C80B-40F6-9DCD-CB342C28A94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F52C45-DBD1-45F7-90EE-D789E75F7371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F52C45-DBD1-45F7-90EE-D789E75F7371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F52C45-DBD1-45F7-90EE-D789E75F7371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F52C45-DBD1-45F7-90EE-D789E75F7371}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8E5B1AA-C80B-40F6-9DCD-CB342C28A94D} = {DD17D1FA-BDBF-45F3-BD1C-EC87AF9DA69E}
+		{A5DD7287-525D-4A11-BAA6-EEBA70A58B18} = {941F31C6-06F8-4CA7-B9F5-77A14BCB4ACF}
+		{57F52C45-DBD1-45F7-90EE-D789E75F7371} = {A5DD7287-525D-4A11-BAA6-EEBA70A58B18}
+	EndGlobalSection
+EndGlobal
